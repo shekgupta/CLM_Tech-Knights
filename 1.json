@@ -1,0 +1,172 @@
+[com.bmc.cloud.model.beans.ComputeContainerNetworkInterface@4f6fa7c7
+logicalNetwork = /logicalnetwork/a54b7049-f3e3-4a01-a0d2-9b54d491afb0
+resourceNetworkInterface = /servernetworkinterface/33fcc8ab-31da-446e-ad50-4f34fc7c2811
+computeContainer = /computecontainer/aa11b2ce-f8ff-4234-84b5-94de4ed246c7
+name = NIC0
+resourceNetworkInterfaceObject = com.bmc.cloud.model.beans.ServerNetworkInterface@259feaab
+     server = null
+     networkLabel = null
+     computeContainer = /computecontainer/aa11b2ce-f8ff-4234-84b5-94de4ed246c7
+     isPublicIP = true
+     serverObject = com.bmc.cloud.model.beans.VirtualGuest@d224b7db
+          totalCpus = 1
+          serverNetworkInterfaceObject = [Circular reference to: com.bmc.cloud.model.beans.ServerNetworkInterface@259feaab]
+          externalID = /subscriptions/c483bb61-c589-4a94-a093-169ed410a555/resourceGroups/SOITEST-1/providers/Microsoft.Compute/virtualMachines/SOITEST-1
+          hostedContainersObject = com.bmc.cloud.model.beans.ComputeContainer@9bdff921
+               resourceSet = /resourceset/165717b9-e6c6-48b7-a349-ec93e0abf714
+               logicalHostingEnvironmentID = 7785bd41-b368-4ad9-bc02-770bdf446776
+               cpus = 1
+               tenantObject = com.bmc.cloud.model.beans.Organization@e672e17f
+                    owner = AltoCloudAdmin
+                    resourceSet = [/resourceset/107a9567-d288-42c4-81f3-468e55c20067, /resourceset/08110dd2-2780-4fa0-8e40-23fd9ba794ec, /resourceset/3719c501-83c9-437b-90e9-0df47cbcc337, /resourceset/406269e0-f812-43cb-8eb8-0d4ae128207b, /resourceset/10e89d85-bc94-469b-975b-19a92e710939, /resourceset/1cec1249-c769-4c3a-8d53-aef58a5d1047, /resourceset/4fefc61f-0dfa-4295-b5d5-8d0be2f975c4, /resourceset/9c45e26a-bd8a-4cf5-9887-5d51c1ef0048, /resourceset/ccff820e-ae55-4224-a338-0069e3d23e05, /resourceset/260dbd50-016b-4862-b441-395003c73af0, /resourceset/33205c3f-f42a-4398-b01b-c8eafdf35494, /resourceset/7d64a2d0-cfb0-44b7-92b6-4069f6ea01a3, /resourceset/29462db8-3e20-4d83-b59d-e1fd40d2b429, /resourceset/32438387-3580-4591-a829-085aa78de0e6, /resourceset/1896b8dc-b0c9-4a5a-8b12-6a2a2922976d, /resourceset/bd4b660a-0f2e-4795-a8fe-29733ed83cc5]
+                    logicalHostingEnvironment = [/logicalhostingenvironment/7785bd41-b368-4ad9-bc02-770bdf446776]
+                    tenantContracts = [/contract/OI-41917d3bcca04293a244488e5d78ed30]
+                    tokenID = 0
+                    description = Automation test company for India site.
+                    tags = [com.bmc.cloud.model.beans.Tag@b6bc7477
+                         tagGroup = com.bmc.cloud.model.beans.TagGroup@2d20e998
+                              name = CSM
+                              modifiedDate = Mon Jan 25 04:40:10 GMT-12:00 2016
+                              guid = AG842B2B080582RDH0TA7FRbAAQJQA
+                              ownedTags = [/tag/Provider, /tag/Tenant]
+                              tagScope = System_Internal
+                         tagGroupObject = Circular reference to: com.bmc.cloud.model.beans.TagGroup@2d20e998
+                         name = Tenant
+                         modifiedDate = Mon Jan 25 04:40:11 GMT-12:00 2016
+                         guid = AG842B2B0805822z30TAj4SMAA-zwB
+                         label = Tenant, Circular reference to: com.bmc.cloud.model.beans.Tag@b6bc7477]
+                    serviceOfferingInstance = [/serviceofferinginstance/33081e23-9558-4060-9abe-1f4d1dbbfcd6, /serviceofferinginstance/573dd90c-d909-465d-98c0-cc4c879c81c8, /serviceofferinginstance/d71a7c22-36ed-4d45-a0a1-d7037dc045f0, /serviceofferinginstance/57f6f208-faf0-4d49-b93f-b30db5512974, /serviceofferinginstance/8ec2b12b-1181-48ba-8132-476824193915, /serviceofferinginstance/1c8e5f97-03cb-4ed1-a043-6ccdb78e8444, /serviceofferinginstance/147047d2-6602-4676-9fb5-e832b4eca497, /serviceofferinginstance/c09b3f27-92d1-46ae-a6da-54c8c48e2db7, /serviceofferinginstance/96db596c-0875-4205-afc7-29e2c79b518d, /serviceofferinginstance/1274f0e1-ea6b-48bc-889b-b7a8a98e87c5, /serviceofferinginstance/37a929af-9890-4ecc-a551-aea95647c5a9, /serviceofferinginstance/a1bf3020-fa6b-4603-a669-8936a9b061a4, /serviceofferinginstance/7f58489e-215b-453c-afc8-6079928d6593, /serviceofferinginstance/daa54f1e-2afc-43f1-9539-bcb764ac406b, /serviceofferinginstance/6e00ff86-b8ab-44aa-bcbe-85779fd5ddf1]
+                    name = AltoStratus LLC
+                    modifiedDate = Tue Jan 26 21:25:14 GMT-12:00 2016
+                    guid = AGHAA5V0HC3F9AOBLPPYB3O6QBBKH2
+                    reconciliationID = REHAA5V0HC3F9AOBLPPZB3O6VGBKH5
+                    isOnboarded = true
+               resourceSetObject = com.bmc.cloud.model.beans.ResourceSet@e208795a
+                    owner = AltoCloudAdmin
+                    functionalComponents = [/functionalcomponent/ecfd6c9c-6063-4d3d-bcf9-0a093ea42050]
+                    logicalHostingEnvironment = /logicalhostingenvironment/7785bd41-b368-4ad9-bc02-770bdf446776
+                    blueprintGuid = 4dc2ba40-cf27-48cc-b8d2-d09464099db2
+                    tokenID = Server Group 1
+                    tenantObject = Circular reference to: com.bmc.cloud.model.beans.Organization@e672e17f
+                    serviceOfferingInstanceObject = com.bmc.cloud.model.beans.ServiceOfferingInstance@8c909a29
+                         contractLine = /serviceofferingcontractline/247fccd4-2259-4788-ad18-d85e83a9a6f2
+                         deploymentModel = /deploymentmodel/3b293f9a-8a51-47f5-b483-b6d4cd73e08e
+                         tokenID = SOITEST-1-4
+                         provisionedDeploymentModel = {
+  "attributes" : {
+    "resourceset" : [ {
+      "functionalComponentReferences" : [ {
+        "type" : "functionalcomponent",
+        "objectGuid" : "d9cb28d5-5827-4f0d-938c-92952ca63e28",
+        "guid" : "2c17cf47-a9cc-46a1-a66e-8983ec6ea551"
+      } ],
+      "compute" : {
+        "instances" : 1,
+        "computecontainer" : {
+          "cloudPlatforms" : [ {
+            "name" : "AzureRM",
+            "installableresources" : [ "PDC000000012830" ],
+            "guid" : "249c41c7-1451-42a1-bdca-602c5a778a4b"
+          } ],
+          "memory" : [ {
+            "mb" : 1024,
+            "policy" : "No Less Than",
+            "guid" : "5ea356f9-295e-4af3-af7c-72cd320242b4"
+          } ],
+          "cpus" : [ {
+            "count" : 1,
+            "policy" : "No Less Than",
+            "guid" : "805a197c-dd92-48be-96b3-eaf9317b0b4e"
+          } ],
+          "hwarchitecture" : "Unknown",
+          "virtual" : true,
+          "installsoftware" : false,
+          "guid" : "5c2bbfc5-5f5e-417e-9326-547feed189fa",
+          "name" : "AzureRM"
+        },
+        "guid" : "08667152-fcaf-4b4f-9e12-0ca7ad1fcc08"
+      },
+      "network" : {
+        "nics" : [ {
+          "isdhcp" : true,
+          "nicnumber" : 0,
+          "publicip" : true,
+          "useExternalDNS" : false,
+          "ipForDNS" : "PrivateIP",
+          "guid" : "02db9b55-c178-4734-88a9-bf5e37fc30a9",
+          "tags" : [ {
+            "tag" : "Customer",
+            "taggroup" : "NetworkType"
+          } ]
+        } ],
+        "guid" : "d49e0caf-ac99-49cd-97c8-fac596eaf132"
+      },
+      "guid" : "4dc2ba40-cf27-48cc-b8d2-d09464099db2",
+      "name" : "Server Group 1"
+    } ],
+    "functionalModelReference" : {
+      "type" : "functionalmodel",
+      "objectGuid" : "eb4ecad0-4010-4941-b852-01404213ceb5",
+      "guid" : "d8ba1abe-b646-45cf-bdaa-055861bd33f6"
+    },
+    "installorder" : {
+      "installstep" : [ {
+        "sequence" : 1,
+        "objectReferences" : [ {
+          "type" : "resourceset",
+          "objectGuid" : "4dc2ba40-cf27-48cc-b8d2-d09464099db2",
+          "guid" : "e350fcf8-f8cd-4bab-ba85-ee4e20990ea4"
+        } ],
+        "guid" : "5ca77bce-fabb-407c-aa95-15d366d386bc"
+      }, {
+        "sequence" : 2,
+        "objectReferences" : [ {
+          "type" : "functionalcomponent",
+          "objectGuid" : "d9cb28d5-5827-4f0d-938c-92952ca63e28",
+          "guid" : "aa6412a7-01dd-42a2-9f64-838b8b26b82a"
+        } ],
+        "guid" : "03066849-5352-4acb-9262-dfebf3c20ffd"
+      } ],
+      "guid" : "6b9baf57-2dcd-4b28-832b-aa5b3c85ec2e"
+    },
+    "monitoring" : {
+      "enable" : false,
+      "enablePolicies" : false,
+      "guid" : "83e11c43-0760-426b-b065-0e2a44f535a1"
+    },
+    "guid" : "3b293f9a-8a51-47f5-b483-b6d4cd73e08e",
+    "parameters" : [ {
+      "parametername" : "AZURE_OS_TYPE",
+      "parameterlabel" : "AZURE_OS_TYPE",
+      "parameterdatatype" : "string",
+      "parametervalue" : "Linux",
+      "required" : false,
+      "enduserinput" : false,
+      "ishidden" : false,
+      "guid" : "21092bae-c6a1-4e15-8632-ed8ac269fdf7"
+    } ]
+  },
+  "class" : "deploymentmodel",
+  "version" : "4.0",
+  "guid" : "ca4ef945-74de-44af-bd8c-d577ac0de1d1"
+}
+                         description = Onboarded SOI
+                         functionalModel = /functionalmodel/eb4ecad0-4010-4941-b852-01404213ceb5
+                         serviceOfferingContractLine = /serviceofferingcontractline/247fccd4-2259-4788-ad18-d85e83a9a6f2
+                         provisionDate = Tue Aug 08 21:24:48 GMT-12:00 2017
+                         functionalModelObject = com.bmc.cloud.model.beans.FunctionalModel@e930dbbe
+                              owner = AltoCloudAdmin
+                              modelDocument = {
+  "attributes" : {
+    "guid" : "eb4ecad0-4010-4941-b852-01404213ceb5"
+  },
+  "class" : "functionalmodel",
+  "version" : "4.0",
+  "guid" : "aee36dac-0b8b-464e-a41f-69019c28d1a5"
+}
+                              tokenID = eb4ecad0-4010-4941-b852-01404213ceb5
+                              name = ARMBPP1
+                              modifiedDate = Tue Aug 08 17:53:29 GMT-12:00 2017
+                              guid = eb4ecad0-4010-4941-b852-01404213ceb5
+                              reconciliationID = OI-12ce09507bfd4694af7651fb1cbb23a9
+                              isOnboarded = tr...

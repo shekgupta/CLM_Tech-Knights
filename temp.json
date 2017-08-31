@@ -1,0 +1,51 @@
+{
+                "timeout": -1,
+                "preCallout": "",
+                "postCallout": "",
+                "operationParams": [{
+                                                "name": "computeContainers",
+                                                "type": "com.bmc.cloud.model.beans.ComputeContainer",
+                                                "multiplicity": "1..*",
+                                                "value": [{
+                                                                "cloudClass": "com.bmc.cloud.model.beans.ComputeContainer",
+                                                                "serverObject": {
+                                                                                "cloudClass": "com.bmc.cloud.model.beans.VirtualGuest",
+                                                                                "externalID": "/subscriptions/c483bb61-c589-4a94-a093-169ed410a555/resourceGroups/SOITEST-1/providers/Microsoft.Compute/virtualMachines/SOITEST-1",
+                                                                                "name": "SOITEST-1",
+                                                                                "provider": "/provider/4a9d12ba-a18b-496e-95d8-ab5f7fb57783"
+
+                                                                },
+                                                                "resourceSetObject": {
+                                                                                "cloudClass": "com.bmc.cloud.model.beans.ResourceSet",
+                                                                                "name": "Server Group 1"
+                                                                }
+                                                }]
+                                },
+                                {
+                                                "name": "serviceOfferingReconId",
+                                                "type": "java.lang.String",
+                                                "multiplicity": "1",
+                                                "value": "74171638-88A2-BD36-C323-7EC52EC7C516"
+                                },
+                                {
+                                                "name": "LogicalHostingEnvironmentId",
+                                                "type": "java.lang.String",
+                                                "multiplicity": "1",
+                                                "value": "7785bd41-b368-4ad9-bc02-770bdf446776"
+                                },
+                                {
+                                                "name": "tenant",
+                                                "type": "java.lang.String",
+                                                "multiplicity": "1",
+                                                "value": "AltoStratus LLC"
+                                },
+                                {
+                                                "name": "owner",
+                                                "type": "java.lang.String",
+                                                "multiplicity": "1",
+                                                "value": "AltoCloudAdmin"
+                                }
+                    
+                        
+                ]
+}
